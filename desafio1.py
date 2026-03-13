@@ -129,16 +129,5 @@ nome_arq = "alunoscopia.csv"
 s = Sistema()
 df = s.ler_csv(nome_arq)
 s.carraga_dados(nome_arq)
-#print(df.loc[df["matricula"] == 100406])
 s.decide_solicitacao(nome_arq)
 
-#print(df.loc[:,"status"])
-
-#df = pd.DataFrame()
-#df.loc["status"]
-
-#1-Receber o numero da matricula do aluno
-
-#2- Verificar se a matricula esta no csv. Se nao tiver, pedir cadastro do aluno
-
-#3- Tendo a matricula, verificar se o status eh igual a "Ativo"
